@@ -1,6 +1,4 @@
-//this is our root reducer to bring in all other reducers
-
-import { combineReducer } from "redux";
+import { combineReducers } from "redux";
 import authReducer from "./authReducer";
 
 export default combineReducers({
